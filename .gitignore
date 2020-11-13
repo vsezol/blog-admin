@@ -23,3 +23,10 @@ yarn-error.log*
 # editor
 .vscode
 .prettierrc
+
+.firebaserc
+firebase.json
+database.rules.json
+.firebase
+
+yarn.lock

@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {useContext, useEffect} from 'react';
+import Navbar from './components/Navbar';
+import ThemeProvider from './components/ThemeProvider';
 
 function App() {
+
   return (
-    <div className="App"></div>
+    <div className="App">
+      <ThemeProvider>
+        <Navbar />
+      </ThemeProvider>
+    </div>
   );
 }
 
